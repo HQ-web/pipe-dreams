@@ -5,7 +5,7 @@ Command-line interface for generalized_pipe_dreams.py.
 """
 
 from pathlib import Path
-import generalized_pipe_dreams as gpd
+import generalized_pipe_dreams_bitmap as gpd
 
 
 def ask_for_permutation() -> list[int]:
@@ -128,7 +128,7 @@ def pipe_dream_details(D, n: int) -> str:
     lines.append(gpd.pipe_dream_to_string(D, n))
     lines.append(f"word: {gpd.reading_word(D, n)}")
     lines.append(f"ordinary permutation: {gpd.pipe_permutation(D, n)}")
-    lines.append(f"crosses: {len(D)}")
+    lines.append(f"crosses: {gpd.cross_count(D)}")
     lines.append(f"reduced: {gpd.is_reduced_pipe_dream(D, n)}")
     lines.append(f"monomial exponents: {gpd.monomial_exponents(D, n)}")
 

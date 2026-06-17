@@ -1,0 +1,25 @@
+[build-system]
+requires = ['setuptools >= 80.9']
+build-backend = "setuptools.build_meta"
+[project]
+name = "pipedream_diagrams"
+version = "0.5"
+authors = [
+  { name="Brad Elkin", email="brad.elkin@gmail.com" },
+]
+description='Make PipeDream diagrams'
+dependencies = [
+    'pillow'
+]
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "GPL-3.0-or-later"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/bradelkin/PipeDream"
+Issues = "https://github.com/bradelkin/PipeDream/issues"

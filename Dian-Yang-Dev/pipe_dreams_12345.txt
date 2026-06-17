@@ -1,0 +1,422 @@
+============================================================
+Permutation: [1, 2, 3, 4, 5]
+Total generalized pipe dreams found: 34
+Reduced pipe dreams: 1
+Non-reduced pipe dreams: 33
+============================================================
+
+Reduced pipe dreams
+===================
+Count: 1
+
+Reduced pipe dreams #1
+----------------------------------------
+. . . .
+. . .
+. .
+.
+word: []
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 0
+reduced: True
+monomial exponents: (0, 0, 0, 0, 0)
+
+Non-reduced pipe dreams
+=======================
+Count: 33
+
+Non-reduced pipe dreams #1
+----------------------------------------
+. + . .
++ . .
+. .
+.
+word: [2, 2]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 2
+reduced: False
+monomial exponents: (1, 1, 0, 0, 0)
+
+Non-reduced pipe dreams #2
+----------------------------------------
+. . + .
+. + .
+. .
+.
+word: [3, 3]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 2
+reduced: False
+monomial exponents: (1, 1, 0, 0, 0)
+
+Non-reduced pipe dreams #3
+----------------------------------------
+. . + .
+. . .
++ .
+.
+word: [3, 3]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 2
+reduced: False
+monomial exponents: (1, 0, 1, 0, 0)
+
+Non-reduced pipe dreams #4
+----------------------------------------
+. . . +
+. . +
+. .
+.
+word: [4, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 2
+reduced: False
+monomial exponents: (1, 1, 0, 0, 0)
+
+Non-reduced pipe dreams #5
+----------------------------------------
+. . . +
+. . .
+. +
+.
+word: [4, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 2
+reduced: False
+monomial exponents: (1, 0, 1, 0, 0)
+
+Non-reduced pipe dreams #6
+----------------------------------------
+. . . +
+. . .
+. .
++
+word: [4, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 2
+reduced: False
+monomial exponents: (1, 0, 0, 1, 0)
+
+Non-reduced pipe dreams #7
+----------------------------------------
+. . . .
+. + .
++ .
+.
+word: [3, 3]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 2
+reduced: False
+monomial exponents: (0, 1, 1, 0, 0)
+
+Non-reduced pipe dreams #8
+----------------------------------------
+. . . .
+. . +
+. +
+.
+word: [4, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 2
+reduced: False
+monomial exponents: (0, 1, 1, 0, 0)
+
+Non-reduced pipe dreams #9
+----------------------------------------
+. . . .
+. . +
+. .
++
+word: [4, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 2
+reduced: False
+monomial exponents: (0, 1, 0, 1, 0)
+
+Non-reduced pipe dreams #10
+----------------------------------------
+. . . .
+. . .
+. +
++
+word: [4, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 2
+reduced: False
+monomial exponents: (0, 0, 1, 1, 0)
+
+Non-reduced pipe dreams #11
+----------------------------------------
+. + + .
++ . .
++ .
+.
+word: [3, 2, 2, 3]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 4
+reduced: False
+monomial exponents: (2, 1, 1, 0, 0)
+
+Non-reduced pipe dreams #12
+----------------------------------------
+. + . +
++ . +
+. .
+.
+word: [4, 2, 4, 2]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 4
+reduced: False
+monomial exponents: (2, 2, 0, 0, 0)
+
+Non-reduced pipe dreams #13
+----------------------------------------
+. + . +
++ . .
+. +
+.
+word: [4, 2, 2, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 4
+reduced: False
+monomial exponents: (2, 1, 1, 0, 0)
+
+Non-reduced pipe dreams #14
+----------------------------------------
+. + . +
++ . .
+. .
++
+word: [4, 2, 2, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 4
+reduced: False
+monomial exponents: (2, 1, 0, 1, 0)
+
+Non-reduced pipe dreams #15
+----------------------------------------
+. + . .
++ . +
+. +
+.
+word: [2, 4, 2, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 4
+reduced: False
+monomial exponents: (1, 2, 1, 0, 0)
+
+Non-reduced pipe dreams #16
+----------------------------------------
+. + . .
++ . +
+. .
++
+word: [2, 4, 2, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 4
+reduced: False
+monomial exponents: (1, 2, 0, 1, 0)
+
+Non-reduced pipe dreams #17
+----------------------------------------
+. + . .
++ . .
+. +
++
+word: [2, 2, 4, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 4
+reduced: False
+monomial exponents: (1, 1, 1, 1, 0)
+
+Non-reduced pipe dreams #18
+----------------------------------------
+. . + +
+. + .
+. +
+.
+word: [4, 3, 3, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 4
+reduced: False
+monomial exponents: (2, 1, 1, 0, 0)
+
+Non-reduced pipe dreams #19
+----------------------------------------
+. . + +
+. + .
+. .
++
+word: [4, 3, 3, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 4
+reduced: False
+monomial exponents: (2, 1, 0, 1, 0)
+
+Non-reduced pipe dreams #20
+----------------------------------------
+. . + +
+. . .
++ .
++
+word: [4, 3, 3, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 4
+reduced: False
+monomial exponents: (2, 0, 1, 1, 0)
+
+Non-reduced pipe dreams #21
+----------------------------------------
+. . + .
+. + .
+. +
++
+word: [3, 3, 4, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 4
+reduced: False
+monomial exponents: (1, 1, 1, 1, 0)
+
+Non-reduced pipe dreams #22
+----------------------------------------
+. . + .
+. . +
++ +
+.
+word: [3, 4, 4, 3]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 4
+reduced: False
+monomial exponents: (1, 1, 2, 0, 0)
+
+Non-reduced pipe dreams #23
+----------------------------------------
+. . . +
+. + +
++ .
+.
+word: [4, 4, 3, 3]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 4
+reduced: False
+monomial exponents: (1, 2, 1, 0, 0)
+
+Non-reduced pipe dreams #24
+----------------------------------------
+. . . +
+. + .
++ .
++
+word: [4, 3, 3, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 4
+reduced: False
+monomial exponents: (1, 1, 1, 1, 0)
+
+Non-reduced pipe dreams #25
+----------------------------------------
+. . . +
+. . +
+. +
++
+word: [4, 4, 4, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 4
+reduced: False
+monomial exponents: (1, 1, 1, 1, 0)
+
+Non-reduced pipe dreams #26
+----------------------------------------
+. . . .
+. + +
++ .
++
+word: [4, 3, 3, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 4
+reduced: False
+monomial exponents: (0, 2, 1, 1, 0)
+
+Non-reduced pipe dreams #27
+----------------------------------------
+. + + +
++ . .
++ .
++
+word: [4, 3, 2, 2, 3, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 6
+reduced: False
+monomial exponents: (3, 1, 1, 1, 0)
+
+Non-reduced pipe dreams #28
+----------------------------------------
+. + + .
++ . +
++ +
+.
+word: [3, 2, 4, 2, 4, 3]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 6
+reduced: False
+monomial exponents: (2, 2, 2, 0, 0)
+
+Non-reduced pipe dreams #29
+----------------------------------------
+. + . +
++ . +
+. +
++
+word: [4, 2, 4, 2, 4, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 6
+reduced: False
+monomial exponents: (2, 2, 1, 1, 0)
+
+Non-reduced pipe dreams #30
+----------------------------------------
+. . + +
+. + +
++ +
+.
+word: [4, 3, 4, 3, 4, 3]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 6
+reduced: False
+monomial exponents: (2, 2, 2, 0, 0)
+
+Non-reduced pipe dreams #31
+----------------------------------------
+. . + +
+. . +
++ +
++
+word: [4, 3, 4, 4, 3, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 6
+reduced: False
+monomial exponents: (2, 1, 2, 1, 0)
+
+Non-reduced pipe dreams #32
+----------------------------------------
+. . + .
+. + +
++ +
++
+word: [3, 4, 3, 4, 3, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 6
+reduced: False
+monomial exponents: (1, 2, 2, 1, 0)
+
+Non-reduced pipe dreams #33
+----------------------------------------
+. + + +
++ . +
++ +
++
+word: [4, 3, 2, 4, 2, 4, 3, 4]
+ordinary permutation: (1, 2, 3, 4, 5)
+crosses: 8
+reduced: False
+monomial exponents: (3, 2, 2, 1, 0)
